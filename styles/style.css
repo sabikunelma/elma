@@ -6,6 +6,7 @@
 .color-2{
      color: #252432;
 }
+
 .btn-primry{
     background-color: #4E47FF;
     color: #FFFFFF;
@@ -83,6 +84,7 @@ nav ul li{
 main{
     max-width: 1540px;
     margin: 0 auto;
+    
 }
 
 /* Action Section styles */
@@ -191,9 +193,7 @@ main{
     width: 40px ;
 }
 
-/* .card-text{
-    margin: 24px;
-} */
+
 
 .card-last-description-items {
     display: block;   
@@ -208,4 +208,38 @@ main{
     padding: 2px;
     border: none;
  border-radius: 5px;
+}
+
+/* feature-highlight-section styles */
+
+.feature-highlight-section{
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    margin-top: 137px;
+    background-color: #F2EDED;
+    border-radius: 40px;
+
+}
+
+.feature-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+.feature-description{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* .feature-highlight-section button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+
+.feature-highlight-section img{
+    height: 364px;
+    width: 840px;
+    border-radius: 48px;
+    margin: 20px 150px 75px 150px;
 }
