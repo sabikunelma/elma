@@ -210,36 +210,94 @@ main{
  border-radius: 5px;
 }
 
+
+
 /* feature-highlight-section styles */
 
-.feature-highlight-section{
+.feature-highlight-section {
+   
     align-items: center;
     text-align: center;
-    padding: 100px;
+    padding: 20px;
     margin-top: 137px;
     background-color: #F2EDED;
     border-radius: 40px;
-
-}
-
+    width: 100%;
+} 
 .feature-title{
     font-size: 50px;
     font-weight: bold;
     margin-top: 20px;
+    margin-bottom: 10px;
 
 }
 .feature-description{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-/* .feature-highlight-section button{
-    margin-top: 20px;
-    margin-bottom: 20px;
-} */
+.feature-highlight-section button {
+    margin: 20px 472px 20px 472px;
+}
 
 .feature-highlight-section img{
-    height: 364px;
+    height: 464px;
     width: 840px;
     border-radius: 48px;
-    margin: 20px 150px 75px 150px;
+    margin: 20px 10px 75px 10px;
 }
+.feature-highlight-section{
+    align-items: center;
+    
+}
+/* contact section styles */
+
+.contact{
+    display: flex;
+     justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 25px;
+    height: 364px;
+    width: 100%;
+     border-radius: 14px;
+     margin-top: 86.23px;
+}
+.contact-title{
+    font-size: 97px;
+    font-weight: bold;  
+     max-width: 40%; 
+    width: 528px;   
+}
+
+form{
+    display: block;
+    gap: 44px;
+    margin-top: 80px;
+}
+
+form input{
+    display: block;  
+}
+
+form textarea, form button{
+    display: block;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+ border:  1px solid 000000;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 99.80%; 
+}
+
+.contact-form button{
+    width:  99.80%;
+    margin-top: 19px;
+}
+
+.contact-form label{
+    margin-top: 19px;
+}
+
