@@ -11,11 +11,17 @@
     background-color: #4E47FF;
     color: #FFFFFF;
     border-radius: 5px;
-    font-size: 13px;
+    font-size: 19px;
     border: none;
-    padding: 13px 15px ;
+    padding: 16px 15px ;
     font-weight: bold;
+    cursor: pointer;
+    
 }
+.btn-primry:hover{
+    background-color: rgb(46, 136, 192);
+}
+
 
 .inter-normal {
   font-family: "Inter", sans-serif;
@@ -33,7 +39,7 @@
 
   .logo{
     font-weight: bold; 
-    font-size: 25px;
+    font-size: 50px;
 }
 
 
